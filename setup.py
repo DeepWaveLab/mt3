@@ -51,7 +51,7 @@ setuptools.setup(
         'scipy',
         'seqio == 0.0.15',
         't5',
-        't5x @ git+https://github.com/DeepWaveInc/t5x#branch=stable',
+        't5x @ git+https://github.com/DeepWaveInc/t5x#ref=a8ba1f2ab4e845a104a729aa2d8fdc279c476380',
         'tensorflow',
         'tensorflow-datasets',
     ],
