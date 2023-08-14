@@ -39,7 +39,7 @@ setuptools.setup(
     install_requires=[
         'absl-py',
         'ddsp',
-        'flax=0.7.0',
+        'flax == 0.7.0',
         'gin-config',
         'immutabledict',
         'librosa',
@@ -49,7 +49,7 @@ setuptools.setup(
         'pretty_midi',
         'scikit-learn',
         'scipy',
-        'seqio=0.0.15',
+        'seqio == 0.0.15',
         't5',
         't5x @ git+https://github.com/DeepWaveInc/t5x#branch=stable',
         'tensorflow',
