@@ -38,7 +38,6 @@ setuptools.setup(
     scripts=[],
     install_requires=[
         'absl-py',
-        'flax @ git+https://github.com/google/flax#egg=flax',
         'gin-config',
         'immutabledict',
         'librosa',
@@ -48,9 +47,7 @@ setuptools.setup(
         'pretty_midi',
         'scikit-learn',
         'scipy',
-        'seqio @ git+https://github.com/google/seqio#egg=seqio',
         't5',
-        't5x @ git+https://github.com/google-research/t5x#egg=t5x',
         'tensorflow',
         'tensorflow-datasets',
     ],
