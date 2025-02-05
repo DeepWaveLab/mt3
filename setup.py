@@ -1,4 +1,4 @@
-# Copyright 2023 The MT3 Authors.
+# Copyright 2024 The MT3 Authors.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -42,7 +42,7 @@ setuptools.setup(
         'immutabledict',
         'librosa',
         'mir_eval',
-        'note_seq',
+        'note-seq @ git+https://github.com/magenta/note-seq#egg=note_seq',
         'numpy',
         'pretty_midi',
         'scikit-learn',
